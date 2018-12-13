@@ -51,6 +51,7 @@ class Shop extends PluginBase implements Listener{
 				 if ($sender instanceof Player) {
                      if ($sender->getGamemode() != 0 and $this->getConfig()->get("Survival") === true) {
                          $sender->sendMessage($this->getConfig()->getNested("messages.Survival"));
+			 return true;
                      }else{
                          $this->catForm($sender);
                          return true;
