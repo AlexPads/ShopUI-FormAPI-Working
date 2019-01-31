@@ -11,33 +11,36 @@
 
 # HOW TO USE:
 ## First Put a Category Whatever you Put will be the Name Exactly Like its Spelled.
-## Then Tab over and Put a - "" in the quotes go in this order:
+## Then Ta over and Put a - "" in the quotes go in this order:
 #### ItemID:MetaData:YourRecommendedAmountOfTheItem:CustomName:PricePerItemBought:SellPricePerItemSold:FormImageType(0 is path 1 is URL):Image
 
 ## Highly Suggested to Adjust Prices!!!!!!!!!! xD
 
 Weapons:
 - "268:0:1:Wooden Sword:250:0:0:textures/items/wood_sword"
-- "272:0:1:Stone Sword:5000:0:0:textures/items/stone_sword"
-- "267:0:1:Golden Sword:10000:0:0:textures/items/gold_sword"
-- "283:0:1:Iron Sword:15000:0:0:textures/items/iron_sword"
-- "276:0:1:Diamond Sword:25000:0:0:textures/items/diamond_sword"
+- "272:0:1:Stone Sword:500:0:0:textures/items/stone_sword"
+- "267:0:1:Golden Sword:1000:0:0:textures/items/gold_sword"
+- "283:0:1:Iron Sword:1500:0:0:textures/items/iron_sword"
+- "276:0:1:Diamond Sword:2500:0:0:textures/items/diamond_sword"
 - "261:0:1:Bow:2000:0:0:textures/items/bow_standby"
 - "262:0:64:Arrow:3000:0:0:textures/items/arrow"
 Blocks:
-- "1:0:64:Stone:12:0:0:textures/blocks/stone"
-- "17:0:64:Oak Wood:12:0:0:textures/blocks/log_oak"
-- "20:0:64:Glass:25:0:0:textures/blocks/glass"
-- "24:0:64:Sandstone:15:0:0:textures/blocks/sandstone_normal"
-- "98:0:64:Stone Bricks:15:0:0:textures/blocks/stonebrick"
-- "155:0:64:Block of Quartz:15:0:0:textures/blocks/quartz_block_side"
-- "88:0:64:Snow:20:0:0:textures/blocks/snow"
-- "44:0:64:Stone Slab:25:0:0:textures/blocks/stone_slab_side"
-- "47:0:64:Bookshelf:15:0:0:textures/blocks/bookshelf"
+- "1:0:64:Stone:120:30:0:textures/blocks/stone"
+- "17:0:64:Oak Wood:120:30:0:textures/blocks/log_oak"
+- "20:0:64:Glass:250:30:0:textures/blocks/glass"
+- "24:0:64:Sandstone:150:30:0:textures/blocks/sandstone_normal"
+- "98:0:64:Stone Bricks:150:30:0:textures/blocks/stonebrick"
+- "155:0:64:Block of Quartz:105:30:0:textures/blocks/quartz_block_side"
+- "88:0:64:Snow:15:5:0:textures/blocks/snow"
+- "44:0:64:Stone Slab:15:30:0:textures/blocks/stone_slab_side"
+- "47:0:64:Bookshelf:15:5:0:textures/blocks/bookshelf"
+- "87:0:64:Nether Rack:15:2:0:textures/blocks/Nether Rack"
+- "8:0:1:Lava:1000:0:0:textures/blocks/Lava"
+- "10:0:1:Water:1000:0:0:textures/blocks/Water"
 Food/Special:
-- "466:0:1:Enchanted Apple:20000:0:1:https//www.digminecraft.com/food_recipes/images/golden_apple2.png"
-- "322:0:1:Golden Apple:15000:0:0:textures/items/apple_golden"
-- "396:0:1:Golden Carrot:10000:0:0:textures/items/carrot_golden"
+- "466:0:1:Enchanted Apple:5000:2000:1:https//www.digminecraft.com/food_recipes/images/golden_apple2.png"
+- "322:0:1:Golden Apple:1500:100:0:textures/items/apple_golden"
+- "396:0:1:Golden Carrot:1000:50:0:textures/items/carrot_golden"
 - "364:0:16:Steak:5:0:0:textures/items/beef_cooked"
 - "320:0:16:Cooked Pork:6:0:0:textures/items/porkchop_cooked"
 Ores:
@@ -46,6 +49,7 @@ Ores:
 - "266:0:10:Golden Ingot:50:20:0:textures/items/gold_ingot"
 - "263:0:10:Coal:25:5:0:textures/items/coal"
 - "331:0:10:Redstone Dust:25:3:0:textures/items/redstone_dust"
+- "351:4:10:Lapis:25:3:0:textures/blocks/LapisOre"
 Tools:
 - "278:0:1:Diamond Pickaxe:25000:0:0:textures/items/diamond_pickaxe"
 - "285:0:1:Golden Pickaxe:15000:0:0:textures/items/gold_pickaxe"
@@ -73,4 +77,29 @@ Armor:
 - "299:0:1:Leather Tunic:10000:0:0:textures/items/leather_chestplate"
 - "300:0:1:Leather Pants:10000:0:0:textures/items/leather_leggings"
 - "301:0:1:Leader Boots:10000:0:0:textures/items/leather_boots"
+Spawner:
+- "52:10:1:Chicken Spawner:50000:25000:0:textures/blocks/MonsterSpawner"
+- "52:11:1:Cow Spawner:50000:25000:0:textures/blocks/MonsterSpawner"
+- "52:13:1:Sheep Spawner:50000:25000:0:textures/blocks/MonsterSpawner"
+- "52:34:1:Skeleton Spawner:70000:35000:0:textures/blocks/MonsterSpawner"
+- "52:21:1:Snow Golem Spawner:70000:35000:0:textures/blocks/MonsterSpawner"
+- "52:43:1:Blaze Spawner:80000:40000:0:textures/blocks/MonsterSpawner"
+- "52:32:1:Zombie Spawner:80000:40000:0:textures/blocks/MonsterSpawner"
+- "52:36:1:ZombiePigMan Spawner:90000:45000:0:textures/blocks/MonsterSpawner"
+- "52:20:1:IronGolem Spawner:1000000:500000:0:textures/blocks/MonsterSpawner"
+- "52:38:1:EnderMan Spawner:3000000:1500000:0:textures/blocks/MonsterSpawner"
+Miscellaneous:
+- "61:0:1:Furnace:20:5:0:textures/blocks/Furnace"
+- "58:0:1:Crafting Table:20:5:0:textures/blocks/CraftingTable"
+- "130:0:1:Ender Chest:1000:500:0:textures/blocks/EnderChest"
+- "368:0:1:EnderPearl:1000:500:0:textures/items/EnderPearl"
+- "386:0:1:Book & Quill:100:50:0:textures/items/BookSelf"
+- "444:0:1:Elytra:1000:250:0:textures/items/Elytra"
+- "333:0:1:Boat:500:250:0:textures/items/Boat"
+- "450:0:1:Totem Of Undying:1000:500:0:textures/items/TotemOfUndying"
+- "138:0:1:Beacon:10000:5000:0:textures/blocks/Beacon"
+Farming:
+- "86:0:1:Pumpkin:50:15:0:textures/items/Pumpkin"
+- "360:0:1:Melon:50:15:0:textures/items/Melon"
+- "391:0:1:Carrot:80:20:0:textures/items/Carrot"
 ...
