@@ -1,0 +1,22 @@
+Titles:
+  Category: "ShopUI" # Title on the Main Shop!
+  Items: "Items" # Title on the Items Section                    (All of these three things can have colors using the "§" Symbol!)
+  Amount: "Amount" # Title on the Buying area with Sliders and Things!
+
+
+Messages:
+  Survival: "You must Be in Survival Mode to use the Shop!" # Message for when player is in creative and shop is set to survival only
+  ExitButton: "§c§lBACK" # Button for Item Category
+  Category_ExitButton: "§c§lEXIT" # Button for Exiting Plugin!
+  Input: "Amount" # The Words above the Input Amount!
+  Each: "$ Each" # Signs for the Buttons like Steak 4($ Each) that is the part it changes
+  BuySell: "Buy/Sell" # The words next to the Toggle Switch
+  Information: "How Many of {item} for {cost}$ Each \nWould you Like to Buy?"
+  ## You can use {amount}, {item} and {cost} here.
+  Paid_for: "You Bought {amount}x {item} for {cost}."
+  ## You can use {amount}, {item}, {cost}, and {missing} here.
+  Not_enough_money: "You Tried to By {amount} of {item} for {cost} but were missing {missing}."
+  Paid: "You Sold {amount} of {item} for {pay}."
+  Not_enough_items: "You tried to sell {amount} of {item} for {pay} but didn't have enough Items!"
+  Thanks: "Thank you for Using the Shop!" # Message sent on Item Buy!
+  Thanks2: "Thank you for visiting the Shop!" #Message sent on Shop Close!

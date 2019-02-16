@@ -1,35 +1,48 @@
 ## ShopUI
+[![](https://poggit.pmmp.io/shield.state/CustomShopUI)](https://poggit.pmmp.io/p/CustomShopUI)
+[![](https://poggit.pmmp.io/shield.api/CustomShopUI)](https://poggit.pmmp.io/p/CustomShopUI)
+[![](https://poggit.pmmp.io/shield.dl.total/CustomShopUI)](https://poggit.pmmp.io/p/CustomShopUI)
+[![](https://poggit.pmmp.io/shield.dl/CustomShopUI)](https://poggit.pmmp.io/p/CustomShopUI)
 
-This plugin uses LibFormAPI so YOU DON'T have to install any extra stuff!
-Easy to use 
-- Simple, Performance, Images, Colors, Infinite Items, Buy and Sell! with different Prices
+This Plugin uses LibFormAPI
+- Easy to use 
+- Custom, Simple, Free, Active!, Updated!
 
 ## Features
 
-- Fully Customizable:
-    - Messages
-    - Errors
-    - Items
-    - Categories
-    - Category and item colors (using the § symbol!)
-    - Images! per Item!
-    - Buy and Sell Prices Per Item
--  You can Choose how many items you want to buy!
-- Please Make suggestions!
+####Custom:
+- Categories
+- Items
+- Pictures
+- Buy/Sell Prices
+- Messages
+- Colors of All Text
+- Commands!
+- Type of Amount Input (Slider, StepSlider, TextBox, Toggle)
+- Enchants (Coming Soon..... "Can be Done Using Commands")
+- Make Suggestions!
+
+#ImageIndex
+
+We have a Website http://saltypixel.ga on there is a Image directory!
+YOU can use this if you dont know what an image is called in the game!
+just go to http://saltypixel.ga/textures/ and find your image!
+This is a Free to use Service and Saves you time 
+#####Requests:
+
+If You would like a image on this DataBase Please send me the Image file! Email it to:
+- founders@saltypixel.ga
 
 ## Important
-
-- Requires EconomyAPI by ONEBONE
-- Requires 7.7kb Space xD
-- any issues need to be reported on the github repo in the issues section OR in my discord! (https://discord.gg/cSEBKWj) in the Plugin chat ONLY!
+- Commands are NEW and could be Buggy but probably not!
+- Requires EconomyAPI by ONEBONE!
+- any issues need to be reported on the github repo in the issues section OR at http://saltypixel.ga in the LiveChat!
 
 ## Devs/Info
 
 - Made by: SaltyPixelDevz
 - TeamMembers(That worked on this Project): AlexPads
-- Collaborator: Thunder33345, Shelly7w7
 - Discord: https://discord.gg/cSEBKWj
-- Website: https://saltypixel.ga
+- Website: http://saltypixel.ga
 - Want to Develop the with the SaltyPixel Dev Team! Contact me on discord! (Link Above) 
 donate at (SaltyPixel.ga Link above!)
-

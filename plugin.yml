@@ -1,11 +1,10 @@
-name: CustomShopUI
-main: AlexPads\ShopUI\SaltyPixelDevz\Shop
-version: 3.2.2
-api: [3.0.0]
+name: CustomShopUIv2
+main: SaltyPixelDevz\CustomShopUIv2\gui
+version: 4.0.0
+api: 3.0.0
 author: SaltyPixelDevz
-website: saltypixel.ga
-depend:
-- EconomyAPI
+description: "Shop GUI Plugin that Aim for the Most Stable and Reliable Updates!"
+website: http://saltypixel.ga
 commands:
-  shop:
-    description: "Opens ShopUI Menu... By: SaltyPixelDevz!"
+ shop:
+  description: "ShopGUI Plugin by the SaltyPixelDevz!"

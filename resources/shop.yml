@@ -1,126 +1,160 @@
----
-#    ___              _      _       _  _     ___     _                       _      ___
-#   / __|   __ _     | |    | |_    | || |   | _ \   (_)    __ __    ___     | |    |   \    ___    __ __     ___
-#   \__ \  / _` |    | |    |  _|    \_, |   |  _/   | |    \ \ /   / -_)    | |    | |) |  / -_)   \ V /    |_ /
-#   |___/  \__,_|   _|_|_   _\__|   _|__/   _|_|_   _|_|_   /_\_\   \___|   _|_|_   |___/   \___|   _\_/_   _/__|
-#   _|"""""|_|"""""|_|"""""|_|"""""|_| """"|_| """ |_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|
-#   "`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'
+## DO NOT TOUCH (This is for Updates only!)
+shop-version: 1
+# DO NOT TOUCH ^^^^^
 
-  ## Welcome to the Only Fully Functional and 100% Customizable ShopUI By: SaltyPixelDevz!!
-
-## NEW! Images!
-### Enchants Coming in Next Update!
-
-# HOW TO USE:
-## First Put a Category Whatever you Put will be the Name Exactly Like its Spelled.
-## Then Tab over and Put a - "" in the quotes go in this order:
-#### ItemID:MetaData:YourRecommendedAmountOfTheItem:CustomName:PricePerItemBought:SellPricePerItemSold:FormImageType(0 is path 1 is URL):Image
-
-## Highly Suggested to Adjust Prices!!!!!!!!!! xD
-
-Weapons:
-  - "268:0:1:Wooden Sword:250:0:0:textures/items/wood_sword"
-  - "272:0:1:Stone Sword:500:0:0:textures/items/stone_sword"
-  - "267:0:1:Golden Sword:1000:0:0:textures/items/gold_sword"
-  - "283:0:1:Iron Sword:1200:0:0:textures/items/iron_sword"
-  - "276:0:1:Diamond Sword:2000:0:0:textures/items/diamond_sword"
-  - "261:0:1:Bow:2000:0:0:textures/items/bow_standby"
-  - "262:0:64:Arrow:3000:0:0:textures/items/arrow"
-Tools:
-  - "278:0:1:Diamond Pickaxe:25000:0:0:textures/items/diamond_pickaxe"
-  - "285:0:1:Golden Pickaxe:20000:0:0:textures/items/gold_pickaxe"
-  - "257:0:1:Iron Pickaxe:15000:0:0:textures/items/iron_pickaxe"
-  - "274:0:1:Stone Pickaxe:5000:0:0:textures/items/stone_pickaxe"
-  - "270:0:1:Wooden Pickaxe:1000:0:0:textures/items/wood_pickaxe"
-  - "258:0:1:Iron Axe:2000:0:0:textures/items/iron_axe"
-Food/Special:
-  - "466:0:1:Enchanted Apple:20000:0:1:https//www.digminecraft.com/food_recipes/images/golden_apple2.png"
-  - "322:0:1:Golden Apple:15000:0:0:textures/items/apple_golden"
-  - "396:0:1:Golden Carrot:10000:0:0:textures/items/carrot_golden"
-  - "364:0:16:Steak:5:0:0:textures/items/beef_cooked"
-  - "320:0:16:Cooked Pork:6:0:0:textures/items/porkchop_cooked"
-  - "424:0:16:Cooked Mutton:5:1:0:textures/items/mutton_cooked"
-Blocks:
-  - "4:0:64:Cobble Stone:50:2:0:textures/blocks/cobblestone"
-  - "3:0:64:Dirt:50:1:0:textures/blocks.dirt"
-  - "1:0:64:Stone:12:.5:0:textures/blocks/stone"
-  - "17:0:64:Oak Wood:12:2:0:textures/blocks/log_oak"
-  - "20:0:64:Glass:25:2:0:textures/blocks/glass"
-  - "24:0:64:Sandstone:15:2:0:textures/blocks/sandstone_normal"
-  - "98:0:64:Stone Bricks:15:2:0:textures/blocks/stonebrick"
-  - "155:0:64:Block of Quartz:15:2:0:textures/blocks/quartz_block_side"
-  - "88:0:64:Snow:20:.2:0:textures/blocks/snow"
-  - "44:0:64:Stone Slab:25:3:0:textures/blocks/stone_slab_side"
-  - "47:0:64:Bookshelf:15:2:0:textures/blocks/bookshelf"
-  - "45:0:64:Bricks:15:2:0:textures/blocks/brick"
-  - "87:0:64:Nether Brick:15:1:0:textures/blocks/nether_brick"
-Farming:
-  - "291:0:1:Hoe:100:1:0:textures/items/stone_hoe"
-  - "351:15:32:Bonemeal:20:1.75:1:https:://saltypixel.ga"
-  - "296:0:12:Seeds:10:2.50:0:textures/items/seeds_wheat"
-  - "338:0:32:Sugar Cane:10:2:1:https:://saltypixel.ga"
-  - "362:0:32:Melon Seeds:10:1.50:0:textures/items/seeds_melon"
-  - "361:0:32:Pumkin Seeds:10:2:0:textures/items/seeds_pumpkin"
-  - "391:0:32:carrot:5:1:0:textures/items/carrot"
-  - "392:0:32:Potato:5:1:0:textures/items/potato"
-Rading/Misc:
-  - "50:0:16:Torch:10:2.5:0:textures/blocks/torch_on"
-  - "46:0:16:Tnt:500:1.5:0:textures/blocks/tnt_side"
-  - "325:10:1:Lava Bucket:5000:5:0:textures/items/bucket_lava"
-  - "325:8:1:Lava Bucket:5000:5:0:textures/items/bucket_water"
-  - "218:0:1:Shulker Box:5000:1:0:textures/items/shulker_shell"
-Ores:
-  - "264:0:12:Diamond:80:2.5:0:textures/items/diamond"
-  - "265:0:10:Iron Ingot:50:2.5:0:textures/items/iron_ingot"
-  - "266:0:10:Golden Ingot:50:2.5:0:textures/items/gold_ingot"
-  - "388:0:10:Emerald:100:2.5:0:textures/items/emerald"
-  - "263:0:10:Coal:25:1.75:0:textures/items/coal"
-  - "331:0:10:Redstone Dust:25:3:0:textures/items/redstone_dust"
-Spawners:
-  - "52:0:1:Monster Spawner:100000:50000:0:textures/blocks/mob_spawner"
-  - "383:33:1:Creeper Egg:15000:5000:0:textures/items/spawn_egg"
-  - "383:34:1:Skeleton Egg:20000:8000:0:textures/items/spawn_egg"
-  - "383:35:1:Spider Egg:15000:6000:0:textures/items/spawn_egg"
-  - "383:43:1:Blaze Egg:23000:10000:0:textures/items/spawn_egg"
-  - "369:0:64:Blaze Rod:50:3.5:0:textures/items/blaze_rod"
-  - "352:0:64:Bone:50:2.75:0:textures/items/bone"
-  - "262:0:64:Arrow:50:1.75:0:textures/items/arrow"
-Decor:
-  - "35:0:64:White Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:1:64: Orange Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:2:64:Light Purple Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:3:64:Light Blue Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:4:64:Yellow Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:5:64:Lime Green Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:6:64:Pink Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:7:64:Dark Gray Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:8:64:Light Gray Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:9:64:Aqua Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:10:64:Purple Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:11:64:Blue Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:12:64:Brown Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:13:64:Green Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:14:64:Red Wool:25:1.75:1:https:://saltypixel.ga"
-  - "35:15:64:Black Wool:25:1.75:1:https:://saltypixel.ga"
-Armor:
-  - "310:0:1:Diamond Helmet:25000:0:0:textures/items/diamond_helmet"
-  - "311:0:1:Diamond Chestplate:25000:0:0:textures/items/diamond_chestplate"
-  - "312:0:1:Diamond Leggings:25000:0:0:textures/items/diamond_leggings"
-  - "313:0:1:Diamond Boots:25000:0:0:textures/items/diamond_boots"
-  - "302:0:1:Chain Helmet:15000:0:0:textures/items/chainmail_helmet"
-  - "303:0:1:Chain Chestplate:15000:0:0:textures/items/chainmail_chestplate"
-  - "304:0:1:Chain Leggings:15000:0:0:textures/items/chainmail_leggings"
-  - "305:0:1:Chain Boots:15000:0:0:textures/items/chainmail_boots"
-  - "306:0:1:Iron Helmet:17000:0:0:textures/items/iron_helmet"
-  - "307:0:1:Iron Chestplate:17000:0:0:textures/items/iron_chestplate"
-  - "308:0:1:Iron Leggings:17000:0:0:textures/items/iron_leggings"
-  - "309:0:1:Iron Boots:17000:0:0:textures/items/iron_boots"
-  - "314:0:1:Golden Helmet:12000:0:0:textures/items/gold_helmet"
-  - "315:0:1:Golden Chestplate:12000:0:0:textures/items/gold_chestplate"
-  - "316:0:1:Golden Leggings:12000:0:0:textures/items/gold_leggings"
-  - "317:0:1:Golden Boots:12000:0:0:textures/items/gold_boots"
-  - "298:0:1:Leather Cap:10000:0:0:textures/items/leather_helmet"
-  - "299:0:1:Leather Tunic:10000:0:0:textures/items/leather_chestplate"
-  - "300:0:1:Leather Pants:10000:0:0:textures/items/leather_leggings"
-  - "301:0:1:Leather Boots:10000:0:0:textures/items/leather_boots"
-...
+#Command Example!!!
+#======================================================================================================
+# Commands:
+#
+#
+#    - "cmd:Sharpness III:100:Console:enchant {player} protection 3:textures/items/stone_sword"
+#            NAME^^^ Price^^^ TYPE^^^            COMMAND^^^^^             PICTURE^^^^^^^
+#
+# Items:
+#
+#   - "268:0:1:250:0:Default:textures/items/wood_sword"
+#
+#   - "ID:META:NUMBER:PRICE(PER ITEM THEY BUY):SELL(PER ITEM THEY SELL):NAME(Defalut OR Custom with §):Picture"
+#
+######## IMPORTANT #########
+#
+#  Next Update Finishes Enchants (Can be Done with Commands!)
+#
+#  NEW!!! We have a Minecraft Texture Library on our Website!
+#         Go to: http://saltypixel.gs/textures after that add the item like this:
+#                   http://saltypixel.ga/textures/blocks/tnt_side.png (You can Send us .png files and we will add them!)
+#                          That would Look like this in use!
+#
+#   - "268:0:1:250:0:Default:http://saltypixel.ha/textures/blocks/tnt_side.png"
+#
+#
+# Developer: AlexPads Team: SaltyPixelDevz! (hub.saltypixel.ga 19132) Join!
+#
+#======================================================================================================
+0: #must start at 0 and go up by one with every new category you make.
+  Name: "Weapons:textures/items/stone_sword" #Can use Custom Colors in the Names using the "§" Symbol
+  Items:
+    - "268:0:1:250:0:Default:textures/items/wood_sword"
+    - "272:0:1:500:0:Default:textures/items/stone_sword"
+    - "267:0:1:1000:0:Default:textures/items/gold_sword"
+    - "283:0:1:1200:0:Default:textures/items/iron_sword"
+    - "276:0:1:2000:0:Default:textures/items/diamond_sword"
+    - "261:0:1:2000:0:Default:textures/items/bow_standby"
+    - "262:0:64:3:1:Default:textures/items/arrow"
+1:
+  Name: "Tools:textures/items/stone_shovel"
+  Items:
+    - "278:0:1:2500:0:Default:textures/items/diamond_pickaxe"
+    - "285:0:1:2000:0:Default:textures/items/gold_pickaxe"
+    - "257:0:1:1000:0:Default:textures/items/iron_pickaxe"
+    - "274:0:1:550:0:Default:textures/items/stone_pickaxe"
+    - "270:0:1:100:0:Default:textures/items/wood_pickaxe"
+    - "258:0:1200:0:Default:textures/items/iron_axe"
+2:
+  Name: "Blocks:textures/blocks/dirt"
+  Items:
+    - "4:0:64:50:2:Default:textures/blocks/cobblestone"
+    - "3:0:64:50:1:Default:textures/blocks/dirt"
+    - "1:0:64:12:.5:Default:textures/blocks/stone"
+    - "17:0:64:12:2:Default:textures/blocks/log_oak"
+    - "20:0:64:25:2:Default:textures/blocks/glass"
+    - "24:0:64:15:2:Default:textures/blocks/sandstone_normal"
+    - "98:0:64:15:2:Default:textures/blocks/stonebrick"
+    - "155:0:64:15:2:Default:textures/blocks/quartz_block_side"
+    - "88:0:64:20:0.5:Default:textures/blocks/snow"
+    - "44:0:64:25:3:Default:textures/blocks/stone_slab_side"
+    - "47:0:64:15:2:Default:textures/blocks/bookshelf"
+    - "45:0:64:15:2:Default:textures/blocks/brick"
+    - "87:0:64:15:1:Default:textures/blocks/nether_brick"
+    - "49:0:64:25:3:Default:textures/blocks/obsidian"
+3:
+  Name: "Food & Special:textures/items/cooked_beef"
+  Items:
+    - "466:0:1:50000:0:Default:http://saltypixel.ga/textures/items/enchanted_golden_apple.png"
+    - "322:0:1:15000:0:Default:textures/items/apple_golden"
+    - "396:0:1:10000:0:Default:textures/items/carrot_golden"
+    - "364:0:16:5:0:Default:textures/items/beef_cooked"
+    - "320:0:16:6:0:Default:textures/items/porkchop_cooked"
+    - "424:0:16:5:1:Default:textures/items/mutton_cooked"
+4:
+  Name: "Farming:textures/items/sugar_cane"
+  Items:
+    - "291:0:1:100:1:Default:textures/items/stone_hoe"
+    - "351:15:32:20:1.75:Default:/textures/items/inc_sac"
+    - "296:0:12:10:2.50:Default:textures/items/seeds_wheat"
+    - "338:0:32:10:2:Default:textures/items/sugar_cane"
+    - "362:0:32:10:1.50:Default:textures/items/seeds_melon"
+    - "361:0:32:10:2:Default:textures/items/seeds_pumpkin"
+    - "391:0:32:5:1:Default:textures/items/carrot"
+    - "392:0:32:5:1:Default:textures/items/potato"
+5:
+  Name: "Raiding & Misc:textures/blocks/tnt"
+  Items:
+    - "50:0:16:10:2.5:Default:textures/blocks/torch_on"
+    - "46:0:16:500:1.5:Default:textures/blocks/tnt_side"
+    - "325:10:1:5000:5:Default:textures/items/bucket_lava"
+    - "325:8:1:5000:5:Default:textures/items/bucket_water"
+    - "218:0:1:5000:1:Default:textures/items/shulker_shell"
+6:
+  Name: "Ores:textures/items/diamond"
+  Items:
+    - "264:0:12:80:2.5:Default:textures/items/diamond"
+    - "265:0:10:50:2.5:Default:textures/items/iron_ingot"
+    - "266:0:10:50:2.5:Default:textures/items/gold_ingot"
+    - "388:0:10:100:2.5:Default:textures/items/emerald"
+    - "263:0:10:25:1.75:Default:textures/items/coal"
+    - "351:4:10:1000:1.5:Default:textures/items/lapis_lazuli"
+    - "331:0:10:25:3:Default:textures/items/redstone"
+7:
+  Name: "Spawners:http://saltypixel.ga/textures/items/spawner.png"
+  Items:
+    - "52:0:1:100000:50000:Default:textures/blocks/mob_spawner"
+    - "383:33:1:15000:5000:Default:textures/items/spawn_egg"
+    - "383:34:1:20000:8000:Default:textures/items/spawn_egg"
+    - "383:35:1:15000:6000:Default:textures/items/spawn_egg"
+    - "383:43:1:23000:10000:Default:textures/items/spawn_egg"
+    - "369:0:64:50:3.5:Default:textures/items/blaze_rod"
+    - "352:0:64:50:2.75:Default:textures/items/bone"
+    - "262:0:64:50:1.75:Default:textures/items/arrow"
+8:
+  Name: "Decor:http://saltypixel.ga/textures/items/white_wool.png"
+  Items:
+    - "35:0:64:25:1.75:White Wool:https:://saltypixel.ga/textures/items/white_wool.png"
+    - "35:1:64:25:1.75:Orange Wool:https:://saltypixel.ga/textures/items/White_wool.png"
+    - "35:2:64:25:1.75:Magenta Wool:https:://saltypixel.ga/textures/items/White_wool.png"
+    - "35:3:64:25:1.75:Light Blue Wool:https:://saltypixel.ga/textures/items/white_Wool.png"
+    - "35:4:64:25:1.75:Yellow Wool:https:://saltypixel.ga/textures/items/White_wool.png"
+    - "35:5:64:25:1.75:Lime Wool:https:://saltypixel.ga/textures/items/White_wool.png"
+    - "35:6:64:25:1.75:Pink Wool:https:://saltypixel.ga/textures/items/White_wool.png"
+    - "35:7:64:25:1.75:Gray Wool:https:://saltypixel.ga/textures/items/White_wool.png"
+    - "35:8:64:25:1.75:Light Gray Wool:https:://saltypixel.ga/textures/items/white_wool.png"
+    - "35:9:64:25:1.75:Cyan Wool:https:://saltypixel.ga/textures/items/White_wool.png"
+    - "35:10:64:25:1.75:Purple Wool:https:://saltypixel.ga/textures/items/white_wool.png"
+    - "35:11:64:25:1.75:Blue Wool:https:://saltypixel.ga/textures/items/white_wool.png"
+    - "35:12:64:l:1.5:Brown Wool:https:://saltypixel.ga/textures/items/white_wool.png"
+    - "35:13:64:25:1.75:Green Wool:https:://saltypixel.ga/textures/items/white_wool.png"
+    - "35:14:64:25:1.75:Red Wool:https:://saltypixel.ga/textures/items/white_wool.png"
+    - "35:15:64:25:1.75:Black Wool:https:://saltypixel.ga/textures/items/white_wool.png"
+9:
+  Name: "Armor:textures/items/diamond_chestplate"
+  Items:
+    - "310:0:1:25000:0:Default:textures/items/diamond_helmet"
+    - "311:0:1:25000:0:Default:textures/items/diamond_chestplate"
+    - "312:0:1:25000:0:Default:textures/items/diamond_leggings"
+    - "313:0:1:25000:0:Default:textures/items/diamond_boots"
+    - "302:0:1:15000:0:Default:textures/items/chainmail_helmet"
+    - "303:0:1:15000:0:Default:textures/items/chainmail_chestplate"
+    - "304:0:1:15000:0:Default:textures/items/chainmail_leggings"
+    - "305:0:1:15000:0:Default:textures/items/chainmail_boots"
+    - "306:0:1:17000:0:Default:textures/items/iron_helmet"
+    - "307:0:1:17000:0:Default:textures/items/iron_chestplate"
+    - "308:0:1:17000:0:Default:textures/items/iron_leggings"
+    - "309:0:1:17000:0:Default:textures/items/iron_boots"
+    - "314:0:1:12000:0:Default:textures/items/gold_helmet"
+    - "315:0:1:12000:0:Default:textures/items/gold_chestplate"
+    - "316:0:1:12000:0:Default:textures/items/gold_leggings"
+    - "317:0:1:12000:0:Default:textures/items/gold_boots"
+    - "298:0:1:10000:0:Default:textures/items/leather_helmet"
+    - "299:0:1:10000:0:Default:textures/items/leather_chestplate"
+    - "300:0:1:10000:0:Default:textures/items/leather_leggings"
+    - "301:0:1:10000:0:Default:textures/items/leather_boots"

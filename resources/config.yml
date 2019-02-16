@@ -1,14 +1,29 @@
-Title: ShopUI
-# If True the command only works when in Survival
+# DO NOT TO
+config-version: 1
+# DO NOT TOUCH^^^^
+
+# When someone closes the shop it shuts completely cout they will have to run the command again!
+Straight_Back: true
+
+# when someone closes the shop it goes back to the Category area they can then close it from there.
+Back_to_Start: false
+
+# This makes the Command only work when the player is in Survival
 Survival: false
-messages:
-  # you can use {money}, {cost], {amount}, {name}, and {item}!
-  paid-for: "you bought {amount} of {item} for {cost}!"
-  not-enough-money: "You tried to by {amount} of {name} for {cost} but you were missing {missing} dollars."
-  money: "you have: "
-  money-recieved: "you received {money}"
-  not-enough-items: "you don't have {amount} of {name}"
-  how-many: "How Many"
-  how-many2: " would you Like?"
-  thanks: "Thank you for Shoping at"
-  Survival: "You Must be in Survival to run this Command!"
+
+# This adds an Exit Button to Categories Section of Plugin (Recommended to Leave false)
+Category_ExitButton: false
+
+# Turns off Messages like Thanks for Using On Close!
+Thanks: true
+
+
+
+Types:
+  Toggle: true #it is NOT recommended to change this! (Changing this means the Plugin wont work This will be Fixed in a few updates!)
+  Input: true # true or false (adds Number input player has to type)
+  Slider: false # true or false (adds slider Input Player has to Slide the Slider)
+  Slider_Minimum: 1 # Must be a Number (Number for Normal Slider)
+  Slider_Maximum: 128 # Must be a Number (Number for Maximum Amount they can Buy)
+  StepSlider: false # true or false (adds step Slider)
+  Slider_Numbers: ["1", "15", "30", "64", "128"] # You can add more Numbers if you follow the Same format!
