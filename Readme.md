@@ -21,7 +21,7 @@ This Plugin uses LibFormAPI
 - Enchants (Coming Soon..... "Can be Done Using Commands")
 - Make Suggestions!
 
-##ImageIndex
+## ImageIndex
 
 We have a Website http://saltypixel.ga on there is a Image directory!
 YOU can use this if you dont know what an image is called in the game!
