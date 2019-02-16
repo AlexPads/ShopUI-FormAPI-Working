@@ -10,7 +10,7 @@ This Plugin uses LibFormAPI
 
 ## Features
 
-####Custom:
+###Custom:
 - Categories
 - Items
 - Pictures
@@ -28,7 +28,7 @@ We have a Website http://saltypixel.ga on there is a Image directory!
 YOU can use this if you dont know what an image is called in the game!
 just go to http://saltypixel.ga/textures/ and find your image!
 This is a Free to use Service and Saves you time 
-#####Requests:
+###Requests:
 
 If You would like a image on this DataBase Please send me the Image file! Email it to:
 - founders@saltypixel.ga
