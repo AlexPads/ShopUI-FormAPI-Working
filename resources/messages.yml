@@ -1,4 +1,4 @@
-message-version: 5
+message-version: 6
 Titles:
   Items: "Items" # Title on the Items Section                    (All of these three things can have colors using the "§" Symbol!)
   Amount: "Amount" # Title on the Buying area with Sliders and Things!
@@ -33,3 +33,4 @@ Messages:
   NoPermission: "§cError: §7You don't have Permission to Use that Shop!"
   ShopError: "§cError: §7That Shop Does Not exist!"
   BannedinWorld: "§cError: §7That Command Has Been banned in this World"
+  AmountMustBePositive: "§cError: §7Number of items must be positive"

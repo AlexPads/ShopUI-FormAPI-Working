@@ -17,7 +17,6 @@ use pocketmine\utils\Config;
 use jojoe77777\FormAPI\SimpleForm;
 use pocketmine\utils\TextFormat as TF;
 use jojoe77777\FormAPI\CustomForm;
-use JackMD\ConfigUpdater\ConfigUpdater;
 
 //   _____       _ _         _____ _          _ _____
 //  / ____|     | | |       |  __ (_)        | |  __ \
@@ -37,7 +36,7 @@ class Shop extends PluginBase
     // For shop Updates!
     private const SHOP_VERSION = 4;
     // For Message Updates!
-    private const MESSAGE_VERSION = 5;
+    private const MESSAGE_VERSION = 6;
     public function onEnable(): void
     {
         $this->saveDefaultConfig();
@@ -348,13 +347,7 @@ class Shop extends PluginBase
     // For Commands
     public function Command(Player $player, $cfg, $categorys, $command, $sub, $ans)
     {
-        if ($sub != 1) {
-            $items = $cfg[$categorys];
-            foreach ($items["Items"] as $cate => $item2) {
-                $item1[] = $item2;
-            }
-            $list = explode(":", $item1[$command]);
-        }else if ($sub = 1){
+        if ($sub == 1) {
             $items = $cfg[$categorys];
             $items2 = $items["Sub"];
             $items3 = $items2[$ans];
@@ -362,8 +355,15 @@ class Shop extends PluginBase
                 $item1[] = $item2;
             }
             $list = explode(":", $item1[$command]);
+        }else {
+            $items = $cfg[$categorys];
+            foreach ($items["Items"] as $cate => $item2) {
+                $item1[] = $item2;
+            }
+            $list = explode(":", $item1[$command]);
         }
-        if (EconomyAPI::getInstance()->myMoney($player) > $list[2]) {
+
+        if (EconomyAPI::getInstance()->myMoney($player) >= $list[2]) {
             if ($list[3] == "Console") {
                 $cmd = str_replace("{player}", $player->getName(), $list[4]);
                 Server::getInstance()->dispatchCommand(new ConsoleCommandSender(), $cmd);
@@ -395,16 +395,16 @@ class Shop extends PluginBase
                 $money = EconomyAPI::getInstance()->myMoney($player);
                 $items = $cfg[$categorys];
                 $message = $msg->getNested("Messages.Information");
-                if ($sub != 1) {
-                    foreach ($items["Items"] as $cate => $item2) {
-                        $item1[] = $item2;
-                    }
-                    $list = explode(":", $item1[$item]);
-                }else if ($sub = 1){
+                if ($sub == 1) {
                     $items = $cfg[$categorys];
                     $items2 = $items["Sub"];
                     $items3 = $items2[$ans];
                     foreach ($items3["Items"] as $cate => $item2) {
+                        $item1[] = $item2;
+                    }
+                    $list = explode(":", $item1[$item]);
+                }else {
+                    foreach ($items["Items"] as $cate => $item2) {
                         $item1[] = $item2;
                     }
                     $list = explode(":", $item1[$item]);
@@ -435,6 +435,10 @@ class Shop extends PluginBase
                     }
                 } else {
                     if ($data[1] == false) {
+                        if ($data1 < 0) {
+                            $player->sendMessage($msg->getNested("Messages.AmountMustBePositive"));
+                            return;
+                        }
                         if ($money >= $list[3] * $data1) {
                             $item = $player->getInventory();
                             if ($list[5] != "Default") {
